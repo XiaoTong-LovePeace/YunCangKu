@@ -1,0 +1,80 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录绑定用户",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, {
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "待订单审核",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/distribution/distribution",
+			"style": {
+				"navigationBarTitleText": "分销",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "信息",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "首页",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+		"van-button": "/wxcomponents/vant/button/index",
+		"van-field": "/wxcomponents/vant/field/index"
+		}
+	},
+	
+	"tabBar": {
+		"selectedColor": "#3669F8",
+
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/images/icon/首页.png",
+				"selectedIconPath": "static/images/icon/首页1.png"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"text": "订单",
+				"iconPath": "static/images/icon/订单.png",
+				"selectedIconPath": "static/images/icon/订单1.png"
+			},
+			{
+				"pagePath": "pages/distribution/distribution",
+				"text": "分销",
+				"iconPath": "static/images/icon/分销系统.png",
+				"selectedIconPath": "static/images/icon/分销系统1.png"
+			},
+			{
+				"pagePath": "pages/message/message",
+				"text": "信息",
+				"iconPath": "static/images/icon/消息.png",
+				"selectedIconPath": "static/images/icon/消息1.png"
+			}
+		]
+	}
+}

@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/order/order",
+    "pages/distribution/distribution",
+    "pages/message/message"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "首页",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#3669F8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/icon/首页.png",
+        "selectedIconPath": "static/images/icon/首页1.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "static/images/icon/订单.png",
+        "selectedIconPath": "static/images/icon/订单1.png"
+      },
+      {
+        "pagePath": "pages/distribution/distribution",
+        "text": "分销",
+        "iconPath": "static/images/icon/分销系统.png",
+        "selectedIconPath": "static/images/icon/分销系统1.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "信息",
+        "iconPath": "static/images/icon/消息.png",
+        "selectedIconPath": "static/images/icon/消息1.png"
+      }
+    ]
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {
+    "van-button": "/wxcomponents/vant/button/index",
+    "van-field": "/wxcomponents/vant/field/index"
+  }
+}
